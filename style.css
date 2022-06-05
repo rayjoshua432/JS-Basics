@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.reg-form {
+    outline: 1px dashed black;
+    margin: 20px auto;
+    height: 400px;
+    width: 400px;
+}
+
+.reg-form .container {
+    padding: 20px;
+}
+
+.container label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.container input {
+    height: 30px;
+}
+
+.container button {
+    width: 100px;
+    height: 30px;
+}
