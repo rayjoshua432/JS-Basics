@@ -88,5 +88,14 @@ const getAge = () => {
     })
 }
 
-console.log("Data: ", await getName())
-console.log("Data: ", await getAge())
+console.log("Name: ", await getName())
+console.log("Age: ", await getAge())
+
+// Function in Async Await
+
+const displayData4 = async() => {
+    console.log("Name: ", await getName())
+    console.log("Age: ", await getAge())
+}
+
+await displayData4()
